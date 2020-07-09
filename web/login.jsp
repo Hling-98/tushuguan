@@ -19,7 +19,7 @@
     </script>
     </head>
     <body><div align="center">
-        <p><font size="6">用户登录</font></p>
+        <p><h1 size="6">用户登录</h1></p>
         <form method="post" action="verify.jsp" name="login" onsubmit="javascript:return check(this);"scope="session">
         <div align="right"></div>
             <table height="150" border="O" align="center" width="300">

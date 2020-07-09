@@ -6,7 +6,7 @@
             alert("请输入用户名！");
             return false;
         }
-        if(myform.username.value==""){
+        if(myform.truename.value=="" ){
             alert("请输入真实姓名！");
             return false;
         }
@@ -60,7 +60,7 @@
 <div align="center">
     <h2>用户注册</h2>
         <%!String sex=null;%>
-    <form action="dealLogon.jsp" method="post" onSubmit="return check()" name="myform">
+    <form action="logonresult.jsp" method="post" onSubmit="return check()" name="myform">
     <table height="100%" border="1" align="center" width="90%">
         <tbody>
         <tr>

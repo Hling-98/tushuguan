@@ -15,10 +15,6 @@
                 alert("不支持%检索!请输入检索词! ");
                 return false;
             }
-            for(i=0;i<len;i++){
-                s_word=s_word.replace(" ","");
-                s_word=s_word.replace("%","");
-            }
         }
     </script>
 </head>
@@ -41,7 +37,7 @@
         </select></td>
 </tr>
 <tr align="center">
-    <td align="right"> &nbsp; 捡索词: </td>
+    <td align="right"> &nbsp; 检索词: </td>
     <td align="left"><input type="text" name="queryWord"></td>
 </tr>
     <tr>
