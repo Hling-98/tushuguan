@@ -25,7 +25,7 @@
 <body>
 <table height="210" border="0" width="889">
 <tbody>
-<tr><td><img border="0" src="Images/banner.png"></td></tr>
+<tr><td><img border="0" src="Images/photo.png"></td></tr>
 </tbody>
 </table>
 <form method="post" action="queryresult.jsp" name="querybook" onsubmit="javascript:return check(this);">
