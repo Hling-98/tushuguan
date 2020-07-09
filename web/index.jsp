@@ -15,7 +15,7 @@
 <table border ="0" width="1300" height ="76">
   <tbody>
   <tr>
-    <td align="right">&nbsp;<a href="queryBook jsp">图书检索</a></td>
+    <td align="right">&nbsp;<a href="querybook jsp">图书检索</a></td>
     <td align="center"> &nbsp;<a href="login.jsp">用户登录</a></td>
     <td><a href="logon.jsp">用户注册</a></td>
   </tr>
