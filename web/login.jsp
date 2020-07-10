@@ -34,7 +34,8 @@
         </tr>
         <tr>
             <td valign="top" align="right">
-            <input type="submit"  value="登录"  name="login"></td>
+            <input type="submit"  value="登录"  name="login">
+                <a href="admin.jsp"></a></td>
             <td valign="top"  align="center">&nbsp;
             <input type= "reset" value="清空" name="empy"></td>
         </tr>

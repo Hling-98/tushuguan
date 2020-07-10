@@ -10,7 +10,7 @@
         String password="";
         String sex="";
         String age="";
-        String IDcard="";
+       //String IDcard="";
         String phone="";
         String email="";
         request.setCharacterEncoding("UTF-8");
@@ -24,8 +24,8 @@
             sex=request.getParameter("sex");
         if(request.getParameter("age")!=null)
             age=request.getParameter("age");
-        if(request.getParameter("IDcard")!=null)
-            IDcard=request.getParameter("IDcard");
+        //if(request.getParameter("IDcard")!=null)
+          //  IDcard=request.getParameter("IDcard");
         if(request. getParameter("phone")!=null)
             phone=request.getParameter("phone");
         if(request.getParameter("email")!=null)

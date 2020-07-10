@@ -19,13 +19,13 @@
     </script>
 </head>
 <body>
-<table height="210" border="0" width="889">
+<table>
 <tbody>
-<tr><td><img border="0" src="Images/photo.jpg"></td></tr>
+<tr><td><img border="0" src="/Images/photo.jpg" height="50" width="100"></td></tr>
 </tbody>
 </table>
 <form method="post" action="queryresult.jsp" name="querybook" onsubmit="javascript:return check(this);">
-<table align="center" height="200" border="0" width="390">
+<table align="center" height="200" border="0" width="500">
 <tbody>
 <tr>
     <td align="right"> &nbsp; 检索词类型: </td>
@@ -34,6 +34,7 @@
             <option value="author">作者</option>
             <option value="pubhouse">出版社</option>
             <option value="isbn">图书编号</option>
+            <option value="category">类目</option>
         </select></td>
 </tr>
 <tr align="center">
