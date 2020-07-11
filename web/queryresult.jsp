@@ -4,6 +4,11 @@
     <title>查询结果</title>
 </head>
 <body><div align="center">
+    <table>
+        <tbody>
+        <tr><td><img border="0" src="/Images/photo.jpg" height="200" width="400" align ="center"></td></tr>
+        </tbody>
+    </table>
 <h1 size="6">查询结果</h1><br><br></div>
 <table border="1" align="center" width="90%" height="40%">
 <tbody><tr>

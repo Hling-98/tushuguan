@@ -20,9 +20,9 @@
 </head>
 <body>
 <table>
-<tbody>
-<tr><td><img border="0" src="/Images/photo.jpg" height="50" width="100"></td></tr>
-</tbody>
+    <tbody>
+    <tr><td><img border="0" src="/Images/photo.jpg" height="200" width="400" align ="center"></td></tr>
+    </tbody>
 </table>
 <form method="post" action="queryresult.jsp" name="querybook" onsubmit="javascript:return check(this);">
 <table align="center" height="200" border="0" width="500">

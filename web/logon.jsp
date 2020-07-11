@@ -49,6 +49,11 @@
     <title>用户注册</title>
 </head>
 <body>
+<table>
+    <tbody>
+    <tr><td><img border="0" src="/Images/photo.jpg" height="200" width="400" align ="center"></td></tr>
+    </tbody>
+</table>
 <div align="center">
     <h2>用户注册</h2>
         <%!String sex=null;%>
