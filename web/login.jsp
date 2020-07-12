@@ -25,26 +25,24 @@
             </tbody>
         </table>
         <p><h1 size="6">用户登录</h1></p>
-        <form method="post" action="verify.jsp" name="login" onsubmit="javascript:return check(this);"scope="session">
         <div align="right"></div>
             <table height="150" border="O" align="center" width="300">
         <tbody>
         <tr>
             <td align="right">用户名: </td>
-            <td>&nbsp; <input type="text" name ="userName'"></td>
+            <td>&nbsp; <input type="text" name ="username"></td>
         </tr>
         <tr>
-            <td align="right">密码: &nbsp; <br></td>
-            <td> &nbsp; <input type="password" name="passWord"></td>
+            <td align="right">密码: <br></td>
+            <td> &nbsp; <input type="password" name="password"></td>
         </tr>
-        <tr>
-            <td valign="top" align="right">
-            <input type="submit"  value="登录"  name="login">
-                <a href="admin.jsp"></a></td>
-            <td valign="top"  align="center">&nbsp;
-            <input type= "reset" value="清空" name="empy"></td>
+        <tr><td valign="top" align="right"><input type="submit" value="登录" name="login"action="reader.jsp"></td>
+            <td valign="top" align="center">&nbsp;<input type= "reset" value="清空" name="empy"></td>
         </tr>
         </tbody>
+                <tr>
+                    <td align="center">&nbsp;<a href="index.jsp">返回</a></td>
+                </tr>
         </table>
         </form>
     <%

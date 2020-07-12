@@ -21,9 +21,12 @@
 <body>
 <table>
     <tbody>
-    <tr><td><img border="0" src="/Images/photo.jpg" height="200" width="400" align ="center"></td></tr>
+    <tr>
+        <td><img border="0" src="/Images/photo.jpg" height="200" width="400" align ="center" valign="top"></td>
+    </tr>
     </tbody>
 </table>
+<p><h1 align="center" size="6">图书检索</h1></p>
 <form method="post" action="queryresult.jsp" name="querybook" onsubmit="javascript:return check(this);">
 <table align="center" height="200" border="0" width="500">
 <tbody>
@@ -33,7 +36,6 @@
             <option value="bookname">书名</option>
             <option value="author">作者</option>
             <option value="pubhouse">出版社</option>
-            <option value="isbn">图书编号</option>
             <option value="category">类目</option>
         </select></td>
 </tr>
@@ -50,8 +52,11 @@
     </tr>
 <tr>
     <td></td>
-    <td align="left"><input type="submit" value=检索" name="query"></td>
+    <td align="center"><input type="submit" value="检索" name="query"></td>
 </tr>
 </tbody></table></form>
+<tr>
+    <td align="center">&nbsp;<a href="index.jsp">返回</a></td>
+</tr>
 </body>
 </html>

@@ -24,5 +24,8 @@
     <td align="left">出版日期</td>
 </tr></tbody>
 </table>
+<tr>
+    <td align="center">&nbsp;<a href="querybook.jsp">返回</a></td>
+</tr>
 </body>
 </html>

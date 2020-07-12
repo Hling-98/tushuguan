@@ -7,11 +7,11 @@
 <table border ="0" width ="751" height ="62" align ="center">
   <tbody>
   <tr>
-    <td>&nbsp; <img border ="0" src="/Images/photo.jpg" width="1200" height=400"></td>
+    <td><img border ="0" src="/Images/photo.jpg" width="1200" height=400"></td>
   </tr>
   </tbody>
 </table>
-<br>
+<p><h1 align="center" size="8">欢迎来到图书馆管理系统</h1></p><br>
 <table border ="0" width="1300" height ="76">
   <tbody>
   <tr>
