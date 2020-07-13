@@ -19,12 +19,13 @@
     </script>
 </head>
 <body>
-<table>
+<table><div align="center">
     <tbody>
     <tr>
-        <td><img border="0" src="/Images/photo.jpg" height="200" width="400" align ="center" valign="top"></td>
+        <td><img border="0" src="/Images/photo.jpg" height="200" width="400"></td>
     </tr>
     </tbody>
+    </div>
 </table>
 <p><h1 align="center" size="6">图书检索</h1></p>
 <form method="post" action="queryresult.jsp" name="querybook" onsubmit="javascript:return check(this);">

@@ -3,7 +3,7 @@
 <head>
     <title>读者主页</title>
 </head>
-<body>
+<body><div align="center">
 <table>
     <tbody>
     <tr>
@@ -11,10 +11,13 @@
     </tr>
     </tbody>
 </table>
+<table>
 <p><h1 align="center" size="8">欢迎!</h1></p>
 <a align="center" href="querybook.jsp">图书检索</a><br>
 <a align="center" href="borrow.jsp">借阅信息</a><br>
 <a align="center" href="readerchange.jsp">修改个人信息</a><br>
 <a align="center"href="logout.jsp">退出登录</a><br>
+    </table>
+    </div>
 </body>
 </html>

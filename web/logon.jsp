@@ -1,5 +1,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
+<head>
+    <title>用户注册</title>
+</head>
 <script language="javascript">
     function check(){
         if(myform.username.value==""){
@@ -45,9 +48,6 @@
             }
         }
 </script>
-<head>
-    <title>用户注册</title>
-</head>
 <body>
 <table>
     <tbody>
@@ -85,7 +85,8 @@
             <td align="left"><input type="text" name= "phone"></td>
         </tr>
         <tr>
-            <td colspan="2" align="center"><input type="submit" value="注册"> &nbsp; &nbsp; <input type="reset" value="取消"></td>
+            <td colspan="2" align="center"><input type="submit" value="注册"> &nbsp; &nbsp;
+                <input type="reset" value="取消"></td>
         </tr>
         </tbody></table></form></div>
 </body>

@@ -25,6 +25,7 @@
             </tbody>
         </table>
         <p><h1 size="6">用户登录</h1></p>
+        <form method="post" action="reader.jsp" name="login" onsubmit="javascript:return check(this);" scope="session">
         <div align="right"></div>
             <table height="150" border="O" align="center" width="300">
         <tbody>
@@ -36,7 +37,7 @@
             <td align="right">密码: <br></td>
             <td> &nbsp; <input type="password" name="password"></td>
         </tr>
-        <tr><td valign="top" align="right"><input type="submit" value="登录" name="login"action="reader.jsp"></td>
+        <tr><td valign="top" align="right"><input type="submit" value="登录" name="login"></td>
             <td valign="top" align="center">&nbsp;<input type= "reset" value="清空" name="empy"></td>
         </tr>
         </tbody>
